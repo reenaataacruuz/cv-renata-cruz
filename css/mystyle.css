@@ -1,0 +1,12 @@
+.icon-fab{
+    font-size: 400%;
+    color: #0aa31f;
+}
+.justify{
+    text-align: justify;
+}
+li:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    color: #6f42c1
+}
