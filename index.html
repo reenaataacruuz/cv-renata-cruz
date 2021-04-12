@@ -37,6 +37,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interesses</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certificados</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portifólio</a></li>
                 </ul>
             </div>
         </nav>
@@ -126,23 +127,23 @@
                     <h2 class="mb-5" data-aos="fade-up-left">Skills</h2>
                     <div class="subheading mb-3"> Linguagens de Programação e Sistemas Operacionais</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5" data-toggle="tooltip" title="HTML 5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS 3"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular" data-toggle="tooltip" title="Angular Js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react" data-toggle="tooltip" title="React"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js" data-toggle="tooltip" title="Node.js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass" data-toggle="tooltip" title="SASS"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-php" data-toggle="tooltip" title="PHP"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress" data-toggle="tooltip" title="Wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm" data-toggle="tooltip" title="Npm"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-html5" data-toggle="tooltip" title="HTML 5"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS 3"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-angular" data-toggle="tooltip" title="Angular Js"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-react" data-toggle="tooltip" title="React"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-node-js" data-toggle="tooltip" title="Node.js"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-sass" data-toggle="tooltip" title="SASS"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-php" data-toggle="tooltip" title="PHP"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-wordpress" data-toggle="tooltip" title="Wordpress"></i></li>
+                        <li id="skill" class="list-inline-item"><i class="fab fa-npm" data-toggle="tooltip" title="Npm"></i></li>
                         <!-- <li class="list-inline-item"><i class="fab fa-gulp" data-toggle="tooltip" title="Gulp"></i></li> -->
                         <!-- <li class="list-inline-item"><i class="fab fa-grunt"></i></li> -->
                         <!-- <li class="list-inline-item"><i class="fab fa-less"></i></li> -->
                     </ul>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-linux" data-toggle="tooltip" title="Linux"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-windows" data-toggle="tooltip" title="Windows"></i></li>
+                        <li class="list-inline-item"><i id="skill" class="fab fa-linux" data-toggle="tooltip" title="Linux"></i></li>
+                        <li class="list-inline-item"><i id="skill" class="fab fa-windows" data-toggle="tooltip" title="Windows"></i></li>
                     </ul>
                     <div class="subheading mb-3">Trabalho e Ambiente</div>
                     <ul class="fa-ul mb-0">
@@ -199,6 +200,32 @@
                 </div>
             </section>
         </div>
+        <!-- portfolio -->
+        <section class="resume-section-portifolio" id="portfolio">
+            <div class="resume-section-content-portifolio col-md-12" data-aos="fade-up-right">
+                <h2 class="mb-5" data-aos="fade-up-left">Portifólio</h2>
+                <div class="card text-center">
+                    <div class="card-header">Servidor SMTP</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto - NODE.js</h5>
+                      <p class="card-text">Texto explicativo do projeto</p>
+                      <a href="assets/portfolio/Server.js " target="_blank" class="btn btn-primary">Visualizar arquivo .js</a>
+                    </div>
+                    <div class="card-footer text-muted">Dezembro de 2019</div>
+                  </div>
+            </div><br>
+            <div class="resume-section-content-portifolio col-md-12" data-aos="fade-up-right">
+                <div class="card text-center">
+                    <div class="card-header">Renderização de Valor Absoluto</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto - Javascript</h5>
+                      <p class="card-text">Texto explicativo do projeto</p>
+                      <a href="" target="_blank" class="disabled btn btn-primary">Visualizar arquivo .js</a>
+                    </div>
+                    <div class="card-footer text-muted">Fevereiro de 2021</div>
+                  </div>
+            </div>
+            </section>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -206,7 +233,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init({disable: 'mobile'});
