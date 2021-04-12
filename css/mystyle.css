@@ -5,8 +5,20 @@
 .justify{
     text-align: justify;
 }
-li:hover {
+#skill:hover {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     color: #6f42c1
 }
+section.resume-section-portifolio {
+    display: block;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    max-width: 75rem;
+  }
+  section.resume-section .resume-section-content-portfolio {
+    width: 100%;
+  }
