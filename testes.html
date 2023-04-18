@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>CV - Renata Cruz</title>
+    <!-- <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> -->
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/dusk/64/000000/monitor--v1.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/mystyle.css" rel="stylesheet" />
+    <style>
+        .carousel {
+            position: relative;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        .carousel-controls {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .carousel-prev,
+        .carousel-next {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .carousel-prev:hover,
+        .carousel-next:hover {
+            background-color: #555;
+        }
+
+        .carousel-prev[disabled],
+        .carousel-next[disabled] {
+            opacity: 0.5;
+            cursor: default;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3 class="mb-0">Analista de Suporte ao Sistema Pl.</h3>
+                    <div class="subheading mb-3 justify">Dimas de Melo Pimenta Sistema de Ponto e Acesso</div>
+                    <ul>
+                        <h4>Suporte N2</h4>
+                        <li>Prestar suporte ao cliente, referente aos equipamentos de Controle de Ponto (MADIS e
+                            DIMEP).</li>
+                        <li>Atendimento por: Telefônico, e-mail, chat.</li>
+                        <li>Atendimento de Chamado VIP via TOPDESK, suporte sobre equipamento e o sistema de
+                            controle de ponto.</li>
+                        <li>Suporte de acesso remoto para preparação do ambiente local do cliente (TeamViewer e
+                            Anydesk).</li>
+                        <li>Abertura de chamados (incidentes) para o setor de desenvolvimento.</li>
+                        <li>Restauração de BANCO DE DADOS(apenas SQL)</li>
+                        <li>Em caso de cancelamento, por parte do cliente, auxiliar na restauração e consulta do
+                            arquivo BAK(CRUD)</li>
+
+                        <h4>Suporte N1</h4>
+                        <li>Abertura de chamado para atendimento in loco de equipamentos e softwares de acesso.</li>
+                        <li>Posicionamento de chamado, com chamados de origens filiais e revendas</li>
+                        <li>Atendimento por: Telefônico, e-mail, chat.</li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="mb-0">Assistente de Suporte</h3>
+                    <div class="subheading mb-3">SEAS – Secretária de Assistência Social</div>
+                    <ul>
+                        <h4>Assistente de Suporte</h4>
+                        <li>Realizar instalações e configurações de softwares.</li>
+                        <li>Instalação de Impressora em Rede de Compartilhamento.</li>
+                        <li>Acompanhar rotinas de backup / otimização / formatação dos equipamentos.</li>
+                        <li>Montagem e manutenção de computadores (Desktop).</li>
+                        <li>Suporte e acesso remoto ao usuário (TeamViewer).</li>
+
+                        <h4>Instrutora de TI</h4>
+                        <li>Ministrar aulas sobre o Sistema Operacional Windows 7.</li>
+                        <li>Ministrar aulas sobre Pacote Office.</li>
+                        <li>Monitoramento de laboratório.</li>
+                        <li>Atendimento ao público.</li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="mb-0">Instrutora de TI</h3>
+                    <div class="subheading mb-3">SEAS – Secretária de Assistência Social</div>
+                    <ul>
+                        <li>Ministrar aulas sobre o Sistema Operacional Windows 7.</li>
+                        <li>Ministrar aulas sobre Pacote Office.</li>
+                        <li>Monitoramento de laboratório.</li>
+                        <li>Atendimento ao público.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-prev">Anterior</button>
+            <button class="carousel-next">Próximo</button>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            disable: 'mobile'
+        });
+
+        const carouselItems = document.querySelectorAll('.carousel-item');
+        const prevBtn = document.querySelector('.carousel-prev');
+        const nextBtn = document.querySelector('.carousel-next');
+
+        let currentItem = 0;
+
+        function showItem() {
+            carouselItems.forEach(item => {
+                item.classList.remove('active');
+            });
+            carouselItems[currentItem].classList.add('active');
+        }
+
+        prevBtn.addEventListener('click', () => {
+            currentItem--;
+            if (currentItem < 0) {
+                currentItem = carouselItems.length - 1;
+            }
+            showItem();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            currentItem++;
+            if (currentItem > carouselItems.length - 1) {
+                currentItem = 0;
+            }
+            showItem();
+        });
+
+        showItem();
+
+
+    </script>
+</body>
+
+</html>
